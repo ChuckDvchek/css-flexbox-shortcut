@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>CSS Snippet Cheatsheet</title>
 </head>
 <body>
@@ -15,52 +16,48 @@
     </header>
     <main>
         <!-- Flexbox Row -->
-        <div>
-            <h2>Flexbox Row</h2>
+        <div class="box">
+                <h2>Flexbox Row</h2>
             <p>Use these three properties to create a Flexbox row layout.</p>
-            <div>
+            <div class="pre">
                 <pre>
 .row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-                </pre>
+}</pre>
             </div>
         </div>
         <!-- Flexbox Column -->
-        <div>
+        <div class="box">
             <h2>Flexbox Column</h2>
             <p>Use this to creat a Flexbox column layout.</p>
-            <div>
+            <div class="pre">
                 <pre>
 .coloumn{
     display: flex;
     flex-direction: column;
-}
-                </pre>
+}</pre>
             </div>
         </div>
         <!-- Css Grid Layout -->
-        <div>
+        <div class="box">
             <h2>CSS Grid Layout</h2>
             <p>Build a 12-column layout using CSS Grid.</p>
             <div>
-                <pre>
+                <pre class="pre">
 .grid{
     display: grid;
     width: 100%;
-    grid-template-columns;
-repeat(12, 1fr);
-}
-                </pre>
+    grid-template-columns:repeat(12, 1fr);
+}</pre>
             </div>
         </div>
         <!-- Linear Gradients -->
-        <div>
+        <div class="box">
             <h2>Linear Gradients</h2>
             <p>This will create a background linear gradient from top to bottom.</p>
-            <div>
+            <div class="pre">
                 <pre>
 .linear-gradient-background {
     background-image: linear-gradient(
@@ -72,10 +69,10 @@ repeat(12, 1fr);
             </div>
         </div>
         <!-- Box Transition Glow -->
-        <div>
+        <div class="box">
             <h2>Box Transition Glow</h2>
             <p>Use transition and box shadows to glow on hover.</p>
-            <div>
+            <div class="pre">
                 <pre>
 .code-card .card-header {
     border-radius: 8px;
@@ -92,10 +89,10 @@ rgba(232, 102, 236, 1);
             </div>
         </div>
         <!-- Overlay Card with Title -->
-        <div>
+        <div class="box">
             <h2>CSS Grid Layout</h2>
             <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
-            <div>
+            <div class="pre">
                 <pre>
 .card-header {
     position: relative;

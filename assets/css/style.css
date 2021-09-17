@@ -1,0 +1,59 @@
+:root {
+    --pink: rgb(233, 102, 236);
+    --grey: rgb(69, 70, 75);
+}
+
+body {
+    background: var(--grey);
+    color: var(--pink);
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 0 17%;
+}
+
+header p {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pre {
+    background-image: linear-gradient(rgba(233, 102, 236, 0.3) 0%,rgba(232, 102, 236, 0.6) 100%);
+    border-radius: 5px;
+    width: 90%;
+    color: white;
+    line-height: 150%;
+    margin: auto;
+}
+
+.pre pre {
+    margin: 15px;
+}
+
+.box{
+    flex: 30%;
+    position: relative;
+    flex-direction: row;
+    border: white dashed;
+    margin: 10px;
+}
+
+.box h2 {
+    border: white solid;
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
+    background: var(--grey);
+    width: 90%;
+    margin: 15px;
+}
+
+.box p {
+    margin: 0 10px;
+}
